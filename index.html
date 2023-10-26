@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-menu" id="game-menu">
+        <h1>MINECRAFT⛏️🌱</h1>
+        <div class="menu-buttons">
+            <button class="button play-button" id="play-button">Play</button>
+            <div class="button-group">
+                <button class="button smaller-button">Opciones</button>
+                <button class="button smaller-button">Salir</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="game-container none" id="game-container">
+        <canvas id="game" class="none"></canvas>
+        <div class="btns">
+            <button class="btns-move" id="up">Arriba</button>
+            <button class="btns-move" id="left">izquierda</button>
+            <button class="btns-move" id="right">Derecha</button>
+            <button class="btns-move" id="down">Abajo</button>
+        </div>
+        <div class="messages">
+            <p>Párrafo de ejemplo</p>
+        </div>
+    </div>
+    <script src="maps.js"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>
